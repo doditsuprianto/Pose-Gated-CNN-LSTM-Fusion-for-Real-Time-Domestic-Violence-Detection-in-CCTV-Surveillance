@@ -1,0 +1,34 @@
+# ============================================================
+# Requirements Sistem Deteksi KDRT Berbasis CCTV
+# Jalankan:  pip install -r requirements.txt
+# Python    : 3.10 (direkomendasikan)
+# ============================================================
+
+# --- Deep Learning ---
+tensorflow>=2.11
+ultralytics>=8.0.0
+
+# --- Komputer Vision ---
+opencv-python>=4.8.0
+
+# --- Data / Numerik ---
+numpy>=1.24
+pandas>=1.5
+
+# --- Machine Learning (training) ---
+scikit-learn>=1.2
+
+# --- Plotting (hasil training) ---
+matplotlib>=3.7
+
+# --- Web Server (Local) ---
+flask>=2.3
+flask-cors>=4.0
+flask-socketio>=5.3
+werkzeug>=2.3
+
+# --- Firebase (history, storage, notifikasi) ---
+firebase-admin>=6.0
+
+# --- Utilitas ekstraksi ---
+tqdm>=4.65
